@@ -19,32 +19,38 @@ html,body {
     word-spacing: 15px;
     margin-right: 20px;
 }
-#Containers {
-    display: inline-block;
+ul#flex-container {
+    list-style-type: none; 
+    margin: 0; padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  
+  align-content: space-between;
+}
+ul li {
+    height: 400px;
+    padding-top: 45px;
+    Color: black;
+    font-weight: bold;
+    font-size: 15px;
     text-align: center;
-    clear: both;
-    margin-left: 300px;
+    width: 300px;
+    margin: 25px;
+    position: relative;
 }
-#Boxes {
-    padding: 20px;
-    background-color: pink;
-    margin-right: 10px;
-    margin-top: 10px;
-    float: left;
-    height: 450px;
-    width: 200px;
-    text-align: left;
-    border-radius: 15px;
-    border: 3px solid black;
+ul li:first-child {background:pink;}
+ul li:nth-child(2) {background: pink}
+ul li:nth-child(3) {background: pink}
+ul li:last-child {background: pink}
 
-}
-p {
+h1 {
     text-align: left;
-    margin-left: 15px;
+    margin-left: 20px;
 }
 input {
-    background-color: lightgreen;
     width: 100%;
-    padding: 8px;
-    margin-top: 300px;
+    background-color: lightgreen;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
 }
