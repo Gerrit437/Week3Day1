@@ -9,13 +9,15 @@ html,body {
     border: solid 5px pink;
 }
 #leftside {
-    float: left;
+    display: flex;
     margin-top: 12px;
     margin-left: 20px;
+    justify-content: flex-start;
 }
 #rightside {
-    float:right;
-    margin-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
     word-spacing: 15px;
     margin-right: 20px;
 }
